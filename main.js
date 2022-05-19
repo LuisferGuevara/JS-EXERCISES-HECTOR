@@ -33,10 +33,11 @@ checkFunc('Luisfer', true);
 
 const Planets = ['Mars', 'Venus', 'Jupiter', 'Earth', 'Pluto'];
 for(let i = 0; i < Planets.length; i++){
-
-    console.log(Planets[i] + ', ' +  Planets.indexOf(Planets[i]))
+    const Planet = Planets[i];
+    console.log(Planets[i] + ', ' +  i)
 }
  
+
 //Exercise 4
 // Declare and initialize an array called
 // wowDatatypes
@@ -46,7 +47,7 @@ for(let i = 0; i < Planets.length; i++){
 
 const wowDatatypes = ['string', 25, true, null, undefined];
 for(let i =0; i < wowDatatypes.length; i++){
-    console.log(wowDatatypes[i] + ', ' + wowDatatypes.indexOf(wowDatatypes[i]) + ', ' + typeof (wowDatatypes[i]));
+    console.log(wowDatatypes[i] + ', ' + i + ', ' + typeof (wowDatatypes[i]));
 }
 
 //Exercise 5 
